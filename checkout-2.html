@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>訂單-優惠碼</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header border border-dark" data-aos="fade-up">
+      <div class="container">
+        <div class="row py-5 py-md-7">
+          <!-- logo -->
+          <div class="col-6 offset-3 col-md-4 offset-md-4">
+            <h1 class="logo">
+              <a href="index.html" class="d-block fs-4 text-center">
+                EXHIBINECTION
+              </a>
+            </h1>
+          </div>
+          <div class="col-3 col-md-4">
+            <ul class="menu list-unstyled d-flex justify-content-end">
+              <li class="menu-item d-none d-md-block">
+                <a href="#" class="menu-link">Sign in</a>
+              </li>
+              <li class="menu-item d-none d-md-block">
+                <a href="#" class="menu-link">Sign up</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link text-black" data-bs-toggle="modal" data-bs-target="#cartModal">
+                  <span class="material-icons icon-link">confirmation_number</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- banner -->
+      
+      <!-- nav -->
+      <div class="nav-scroller border-top border-dark d-none">
+        <div class="container">
+          <nav class="nav justify-content-start justify-content-sm-center">
+            <a class="nav-link" href="#">音樂</a>
+            <a class="nav-link" href="#">戲劇</a>
+            
+              <a class="nav-link" href="product.html">設計</a>
+            
+            <a class="nav-link" href="#">藝術</a>
+            <a class="nav-link" href="#">美食</a>
+            <a class="nav-link" href="#">旅遊</a>
+            <a class="nav-link" href="#">電影</a>
+            <a class="nav-link" href="#">親子</a>
+            <a class="nav-link" href="#">期間限定</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="checkout wrap pt-5 pb-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- timeline -->
+                <div class="row timeline-section mb-5 mb-md-7">
+                    <div class="col-3 timeline-pointer done">
+                        <p>確認訂單</p>
+                    </div>
+                    <div class="col-3 timeline-pointer done active">
+                        <p>填寫訂購資訊</p>
+                    </div>
+                    <div class="col-3 timeline-pointer">
+                        <p>填寫付款資訊</p>
+                    </div>
+                    <div class="col-3 timeline-pointer">
+                        <p>完成訂購</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-8 d-flex order-2 order-lg-0">
+                <!-- checkout list -->
+                <ul class="checkout-list list-unstyled">
+                    <li class="row checkout-item-lg align-items-center">
+                        <div class="col-md-3">
+                            <img src="./assets/images/popular-1.jpg" class="card-img-top" alt="popular-1">
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="h6 mb-1">2020 台味設計展</h5>
+                            <p class="mb-1">01 JUN — 31 OCT</p>
+                            <p class="text-dark mb-3">全票</p>
+                        </div>
+                        <div class="col">
+                            <p class="fs-5 fw-bold">NT$350</p>
+                        </div>
+                        <div class="col text-center">
+                            <span class="fs-5 fw-bold mx-3">1</span>
+                        </div>
+                    </li>
+                    <li class="row checkout-item-lg align-items-center">
+                        <div class="col-md-3">
+                            <img src="./assets/images/popular-2.jpg" class="card-img-top" alt="popular-2">
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="h6 mb-1">No.22 線上設計展</h5>
+                            <p class="mb-1">01 JUN — 31 OCT</p>
+                            <p class="text-dark mb-3">全票</p>
+                        </div>
+                        <div class="col">
+                            <p class="fs-5 fw-bold">NT$350</p>
+                        </div>
+                        <div class="col text-center">
+                            <span class="fs-5 fw-bold mx-3">1</span>
+                        </div>
+                    </li>
+                    <li class="row checkout-item-lg align-items-center">
+                        <div class="col-md-3">
+                            <img src="./assets/images/popular-3.jpg" class="card-img-top" alt="popular-3">
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="h6 mb-1">高雄設計節</h5>
+                            <p class="mb-1">01 JUN — 31 OCT</p>
+                            <p class="text-dark mb-3">全票</p>
+                        </div>
+                        <div class="col">
+                            <p class="fs-5 fw-bold">NT$350</p>
+                        </div>
+                        <div class="col text-center">
+                            <span class="fs-5 fw-bold mx-3">1</span>
+                        </div>
+                    </li>
+                    <li class="row checkout-item align-items-center ">
+                        <div class="col-6">
+                            <img src="./assets/images/popular-1.jpg" class="card-img-top" alt="popular-1">
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="fs-6">2020 台味設計展</h5>
+                            </div>
+                            <p>01 JUN — 31 OCT</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-dark">全票<span class="fs-5 text-black fw-bold mx-1">1</span></p>
+                                <p class="fs-5 fw-bold">NT$350</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row checkout-item align-items-center ">
+                        <div class="col-6">
+                            <img src="./assets/images/popular-2.jpg" class="card-img-top" alt="popular-2">
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="fs-6">No.22 線上設計展</h5>
+                            </div>
+                            <p>01 JUN — 31 OCT</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-dark">全票<span class="fs-5 text-black fw-bold mx-1">1</span></p>
+                                <p class="fs-5 fw-bold">NT$350</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row checkout-item align-items-center ">
+                        <div class="col-6">
+                            <img src="./assets/images/popular-3.jpg" class="card-img-top" alt="popular-3">
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="fs-6">高雄設計節</h5>
+                            </div>
+                            <p>01 JUN — 31 OCT</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-dark">全票<span class="fs-5 text-black fw-bold mx-1">1</span></p>
+                                <p class="fs-5 fw-bold">NT$350</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 offset-lg-0 col-lg-4 d-flex flex-column order-1">
+                <h5 class="mb-4 mb-md-5">訂購人資訊</h5>
+                <form class="mb-13">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" class="form-control" id="name" placeholder="請輸入姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">聯絡電話</label>
+                        <input type="tel" class="form-control" id="tel" placeholder="請輸入電話">
+                    </div>
+                    <div class="form-group">
+                        <label for="coupon">優惠碼</label>
+                        <input type="text" class="form-control" id="coupon" value="TG87526" placeholder="請輸入優惠碼">
+                        <p id="coupon-valid" class="form-text text-primary text-end">優惠碼已生效</p>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-between mb-2">
+                    <p>小計</p>
+                    <p class="fw-light">NT$1050</p>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                    <p>折扣</p>
+                    <p class="fw-light">-NT$50</p>
+                </div>
+                <div class="fs-5 d-flex justify-content-between mb-8 mb-lg-3">
+                    <p>總金額</p>
+                    <p>NT$1000</p>
+                </div>
+            </div>
+        </div>
+        <!-- link -->
+        <div class="row">
+            <div class="col-6 col-lg-2">
+                <a href="checkout-1.html" class="btn btn-outline-secondary w-100">返回</a>
+            </div>
+            <div class="col-6 offset-lg-6 col-lg-4">
+                <a href="checkout-3.html" class="btn btn-secondary w-100">下一步</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- footer -->
+    <footer class="footer d-none" data-aos="fade-up">
+      <div class="content">
+        <div class="container h-100 d-flex align-items-end">
+          <div class="w-100 w-md-auto">
+            <div class="fs-4 fs-md-2 text-light fw-bold mb-7 mb-md-3">
+              想收到最新消息嗎？
+              <br>
+              快訂閱我們！
+            </div>
+            <div class="d-flex subcript-input mb-9">
+              <input class="form-control" type="text" placeholder="輸入您的電子信箱" width="350">
+              <button type="button" class="btn btn-secondary px-13">訂閱</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container d-flex justify-content-between py-7">
+          <div class="d-md-flex align-items-md-center">
+            <div class="fs-4 me-4">EXHIBINECTION</div>
+            <div>© 2020. All Rights Reserved.</div>
+          </div>
+          <ul class="menu list-unstyled d-none d-md-flex">
+            <li class="menu-item">
+              <a href="#" class="menu-link">Sign in</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- cartModal -->
+    <div class="modal modalRight fade cart-scroller" id="cartModal" tabindex="-1" aria-labelledby="cartTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fs-2 text-white" id="cartTitle">Cart List</h5>
+          </div>
+          <div class="modal-body">
+            <div class="card rounded px-8 pt-7 pb-6 mb-3">
+              <button type="button" class="card-close btn-close" aria-label="Close"></button>
+              <div class="d-flex align-items-center">
+                <div class="w-25 me-4">
+                  <img src="./assets/images/popular-1.jpg" class="card-img" alt="popular-1">
+                </div>
+                  <div class="card-body">
+                    <h5 class="h6 mb-1">2020 台味設計展</h5>
+                    <p class="mb-1">01 JUN — 31 OCT</p>
+                    <p class="text-dark mb-3">全票</p>
+                    <p class="fs-5 fw-bold">NT$350</p>
+                  </div>
+                <div>
+                  <span class="material-icons d-none d-sm-block">remove</span>
+                  <span class="fs-5 fw-bold mx-3">01</span>
+                  <span class="material-icons d-none d-sm-block">add</span>
+                </div>
+              </div>
+            </div>
+            <div class="card rounded px-8 pt-7 pb-6 mb-3">
+              <button type="button" class="card-close btn-close" aria-label="Close"></button>
+              <div class="d-flex align-items-center">
+                <div class="w-25 me-4">
+                  <img src="./assets/images/popular-2.jpg" class="card-img" alt="popular-2">
+                </div>
+                  <div class="card-body">
+                    <h5 class="h6 mb-1">2020 台味設計展</h5>
+                    <p class="mb-1">01 JUN — 31 OCT</p>
+                    <p class="text-dark mb-3">全票</p>
+                    <p class="fs-5 fw-bold">NT$350</p>
+                  </div>
+                <div>
+                  <span class="material-icons d-none d-sm-block">remove</span>
+                  <span class="fs-5 fw-bold mx-3">01</span>
+                  <span class="material-icons d-none d-sm-block">add</span>
+                </div>
+              </div>
+            </div>
+            <div class="card rounded px-8 pt-7 pb-6 mb-3">
+              <button type="button" class="card-close btn-close" aria-label="Close"></button>
+              <div class="d-flex align-items-center">
+                <div class="w-25 me-4">
+                  <img src="./assets/images/popular-3.jpg" class="card-img" alt="popular-3">
+                </div>
+                  <div class="card-body">
+                    <h5 class="h6 mb-1">2020 台味設計展</h5>
+                    <p class="mb-1">01 JUN — 31 OCT</p>
+                    <p class="text-dark mb-3">全票</p>
+                    <p class="fs-5 fw-bold">NT$350</p>
+                  </div>
+                <div>
+                  <span class="material-icons d-none d-sm-block">remove</span>
+                  <span class="fs-5 fw-bold mx-3">01</span>
+                  <span class="material-icons d-none d-sm-block">add</span>
+                </div>
+              </div>
+            </div>
+            <div class="card rounded px-8 pt-7 pb-6 mb-3">
+              <button type="button" class="card-close btn-close" aria-label="Close"></button>
+              <div class="d-flex align-items-center">
+                <div class="w-25 me-4">
+                  <img src="./assets/images/popular-1.jpg" class="card-img" alt="popular-1">
+                </div>
+                  <div class="card-body">
+                    <h5 class="h6 mb-1">2020 台味設計展</h5>
+                    <p class="mb-1">01 JUN — 31 OCT</p>
+                    <p class="text-dark mb-3">全票</p>
+                    <p class="fs-5 fw-bold">NT$350</p>
+                  </div>
+                <div>
+                  <span class="material-icons d-none d-sm-block">remove</span>
+                  <span class="fs-5 fw-bold mx-3">01</span>
+                  <span class="material-icons d-none d-sm-block">add</span>
+                </div>
+              </div>
+            </div>
+            <div class="card rounded px-8 pt-7 pb-6 mb-3">
+              <button type="button" class="card-close btn-close" aria-label="Close"></button>
+              <div class="d-flex align-items-center">
+                <div class="w-25 me-4">
+                  <img src="./assets/images/popular-2.jpg" class="card-img" alt="popular-2">
+                </div>
+                  <div class="card-body">
+                    <h5 class="h6 mb-1">2020 台味設計展</h5>
+                    <p class="mb-1">01 JUN — 31 OCT</p>
+                    <p class="text-dark mb-3">全票</p>
+                    <p class="fs-5 fw-bold">NT$350</p>
+                  </div>
+                <div>
+                  <span class="material-icons d-none d-sm-block">remove</span>
+                  <span class="fs-5 fw-bold mx-3">01</span>
+                  <span class="material-icons d-none d-sm-block">add</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <p class="fs-5 text-white"><span class="me-6">小計</span>NT$1050</p>
+            <a href="checkout-1.html" class="btn btn-white">前往結帳</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+      
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 800, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+});
+    </script>  
+  </body>
+
+</html>
