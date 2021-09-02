@@ -1,0 +1,13 @@
+.product-list{
+    .card{
+        &-dark{
+            background-color: $primary;
+            color: $white;
+        }
+        &-light{
+            background-color: $white;
+            color: $primary;
+        }
+    }
+}
+

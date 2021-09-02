@@ -1,0 +1,161 @@
+---
+title: 訂單
+layout: ./app/layout.ejs
+engine: ejs
+current: checkout
+nav_display: d-none
+footer_display: d-none
+---
+<div class="checkout wrap pt-5 pb-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- timeline -->
+                <div class="row timeline-section mb-5 mb-md-7">
+                    <div class="col-3 timeline-pointer done active">
+                        <p>確認訂單</p>
+                    </div>
+                    <div class="col-3 timeline-pointer">
+                        <p>填寫訂購資訊</p>
+                    </div>
+                    <div class="col-3 timeline-pointer">
+                        <p>填寫付款資訊</p>
+                    </div>
+                    <div class="col-3 timeline-pointer">
+                        <p>完成訂購</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-8">
+                <!-- checkout list -->
+                <ul class="checkout-list list-unstyled">
+                    <li class="row checkout-item-lg align-items-center">
+                        <div class="col-md-3">
+                            <img src="./assets/images/popular-1.jpg" class="card-img-top" alt="popular-1">
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="h6 mb-1">2020 台味設計展</h5>
+                            <p class="mb-1">01 JUN — 31 OCT</p>
+                            <p class="text-dark mb-3">全票</p>
+                        </div>
+                        <div class="col">
+                            <p class="fs-5 fw-bold">NT$350</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <span class="material-icons">remove</span>
+                            <span class="fs-5 fw-bold mx-3">01</span>
+                            <span class="material-icons">add</span>
+                        </div>
+                        <div class="col text-end">
+                            <button type="button" class="card-close btn-close" aria-label="Close"></button>
+                        </div>
+                    </li>
+                    <li class="row checkout-item-lg align-items-center">
+                        <div class="col-md-3">
+                            <img src="./assets/images/popular-2.jpg" class="card-img-top" alt="popular-2">
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="h6 mb-1">No.22 線上設計展</h5>
+                            <p class="mb-1">01 JUN — 31 OCT</p>
+                            <p class="text-dark mb-3">全票</p>
+                        </div>
+                        <div class="col">
+                            <p class="fs-5 fw-bold">NT$350</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <span class="material-icons">remove</span>
+                            <span class="fs-5 fw-bold mx-3">01</span>
+                            <span class="material-icons">add</span>
+                        </div>
+                        <div class="col text-end">
+                            <button type="button" class="card-close btn-close" aria-label="Close"></button>
+                        </div>
+                    </li>
+                    <li class="row checkout-item-lg align-items-center">
+                        <div class="col-md-3">
+                            <img src="./assets/images/popular-3.jpg" class="card-img-top" alt="popular-3">
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="h6 mb-1">高雄設計節</h5>
+                            <p class="mb-1">01 JUN — 31 OCT</p>
+                            <p class="text-dark mb-3">全票</p>
+                        </div>
+                        <div class="col">
+                            <p class="fs-5 fw-bold">NT$350</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <span class="material-icons">remove</span>
+                            <span class="fs-5 fw-bold mx-3">01</span>
+                            <span class="material-icons">add</span>
+                        </div>
+                        <div class="col text-end">
+                            <button type="button" class="card-close btn-close" aria-label="Close"></button>
+                        </div>
+                    </li>
+                    <li class="row checkout-item align-items-center ">
+                        <div class="col-6">
+                            <img src="./assets/images/popular-1.jpg" class="card-img-top" alt="popular-1">
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="fs-6">2020 台味設計展</h5>
+                                <button type="button" class="card-close btn-close" aria-label="Close"></button>
+                            </div>
+                            <p>01 JUN — 31 OCT</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-dark">全票<span class="fs-5 text-black fw-bold mx-1">1</span></p>
+                                <p class="fs-5 fw-bold">NT$350</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row checkout-item align-items-center ">
+                        <div class="col-6">
+                            <img src="./assets/images/popular-2.jpg" class="card-img-top" alt="popular-2">
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="fs-6">No.22 線上設計展</h5>
+                                <button type="button" class="card-close btn-close" aria-label="Close"></button>
+                            </div>
+                            <p>01 JUN — 31 OCT</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-dark">全票<span class="fs-5 text-black fw-bold mx-1">1</span></p>
+                                <p class="fs-5 fw-bold">NT$350</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row checkout-item align-items-center ">
+                        <div class="col-6">
+                            <img src="./assets/images/popular-3.jpg" class="card-img-top" alt="popular-3">
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="fs-6">高雄設計節</h5>
+                                <button type="button" class="card-close btn-close" aria-label="Close"></button>
+                            </div>
+                            <p>01 JUN — 31 OCT</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-dark">全票<span class="fs-5 text-black fw-bold mx-1">1</span></p>
+                                <p class="fs-5 fw-bold">NT$350</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="offset-6 col-6 offset-lg-8 col-lg-4">
+                <div class="fs-5 d-flex justify-content-between mb-3">
+                    <p>小計</p>
+                    <p>NT$1750</p>
+                </div>
+            </div>
+        </div>
+        <!-- link -->
+        <div class="row">
+            <div class="offset-6 col-6 offset-md-8 col-md-4">
+                <a href="checkout-2.html" class="btn btn-secondary w-100">下一步</a>
+            </div>
+        </div>
+    </div>
+</div>

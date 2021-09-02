@@ -1,0 +1,13 @@
+// bootstrap
+@import 'helpers/bootstrap.scss';
+
+// custom (overriding)
+@import 'base';
+@import 'util';
+@import 'layout';
+
+// pages
+@import 'pages/index';
+@import 'pages/product';
+@import 'pages/detail';
+@import 'pages/checkout';
